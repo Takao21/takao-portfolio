@@ -1,0 +1,6 @@
+<li *ngFor="let item of list">
+  <a target="_blank" [href]="item.titleLink">{{ item.title }}</a>
+  <a href="#" class="float-right">{{ item.date }}</a>
+  <p>{{ item.body }}</p>
+  <br>
+</li>

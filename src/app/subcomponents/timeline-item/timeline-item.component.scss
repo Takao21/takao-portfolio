@@ -1,0 +1,21 @@
+li a {
+  color: #1560bd;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+}
+li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #4569a3;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
