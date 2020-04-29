@@ -16,4 +16,7 @@ export class SkillsetsComponent implements OnInit {
     window.alert("I wish you have a great day~ ^_^");
   }
 
+  public animateBubbles() {
+    document.getElementById("bubbles").style.display = "block";
+  }
 }
