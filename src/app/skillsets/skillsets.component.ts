@@ -12,4 +12,8 @@ export class SkillsetsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public happyTime() {
+    window.alert("I wish you have a great day~ ^_^");
+  }
+
 }

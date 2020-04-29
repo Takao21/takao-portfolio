@@ -36,6 +36,12 @@ export const LIST = [
     body: "Further continuing my study on web, I achieved the JavaScript Data Structures & Algorithms Certification from FreeCodeCamp in the next few months."
   },
   {
+    title: "Working With AnimeJS",
+    titleLink: "https://animejs.com",
+    date: "December, 2019",
+    body: "I developed a webpage for my student club at the university and got to learn the animation framework Anime.js along the way."
+  },
+  {
     title: "Deeper Into JavaScript",
     titleLink: "https://www.facebook.com/turingprogrammingtrainingcenter/",
     date: "February, 2020",
