@@ -1,0 +1,59 @@
+.hovereffect {
+  opacity: 0;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s linear;
+}
+.parentrow {
+  position: relative;
+}
+.buttonrow {
+  position: absolute;
+  bottom: 1em;
+  background-color: #999;
+  width: 100%;
+  border-radius: 1.4em;
+}
+.buttonrow a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.buttonrow div {
+  padding: .7em 0;
+}
+.buttonrow div:nth-child(1) {
+  background-color: #08d431;
+  border-radius: 1.4em 0 0 1.4em;
+}
+.buttonrow div:nth-child(2) {
+  border-radius: 0 1.4em 1.4em 0;
+}
+.buttonrow div:hover {
+  -webkit-filter: brightness(112%);
+          filter: brightness(112%);
+}
+.buttonrow div:hover .hovereffect {
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}

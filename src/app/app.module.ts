@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TimelineItemComponent } from './subcomponents/timeline-item/timeline-item.component';
+import { WorkItemComponent } from './subcomponents/work-item/work-item.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TimelineItemComponent } from './subcomponents/timeline-item/timeline-it
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    TimelineItemComponent
+    TimelineItemComponent,
+    WorkItemComponent
   ],
   imports: [
     BrowserModule,
