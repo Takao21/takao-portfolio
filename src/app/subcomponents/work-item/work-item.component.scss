@@ -4,56 +4,65 @@
   font-weight: bold;
   transition: all 0.3s linear;
 }
-.parentrow {
-  position: relative;
+#desc {
+  height: 10em;
+  overflow-y: auto;
 }
+.card {
+  box-shadow: 1px 1px 6px 2px grey;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
 .buttonrow {
-  position: absolute;
-  bottom: 1em;
   background-color: #999;
   width: 100%;
   border-radius: 1.4em;
+  margin: auto;
 }
+
 .buttonrow a {
   display: block;
   color: #fff;
   text-decoration: none;
 }
+
 .buttonrow div {
-  padding: .7em 0;
+  padding: 0.7em 0;
 }
+
 .buttonrow div:nth-child(1) {
   background-color: #08d431;
   border-radius: 1.4em 0 0 1.4em;
 }
+
 .buttonrow div:nth-child(2) {
   border-radius: 0 1.4em 1.4em 0;
 }
+
 .buttonrow div:hover {
   -webkit-filter: brightness(112%);
-          filter: brightness(112%);
+  filter: brightness(112%);
 }
+
 .buttonrow div:hover .hovereffect {
   opacity: 1;
   transition: all 0.3s linear;
 }
-.ml9 {
-  position: relative;
-  font-weight: 200;
-  font-size: 4em;
-}
+@media only screen and (max-width: 992px) {
+  .container-fluid {
+    flex-direction: column;
+  }
 
-.ml9 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
+  .mobile2 {
+    order: 2;
+  }
 
-.ml9 .letter {
-  transform-origin: 50% 100%;
-  display: inline-block;
-  line-height: 1em;
+  .mobile1 {
+    order: 1;
+  }
 }

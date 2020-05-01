@@ -1,19 +1,25 @@
-
 <div class="container-fluid" *ngFor="let item of worklist">
+  <br>
   <div class="row">
-    <div class="col-8 parentrow">
-      <h1>{{ item.title }}</h1>
-      <p>{{ item.description }}</p>
-      <div class="row buttonrow">
-        <div class="col-6 text-center">
-          <a href="{{ item.appUrl }}"><i class="fas fa-share hovereffect"></i> Try it!</a>
-        </div>
-        <div class="col-6 text-center">
-          <a href="{{ item.sourceUrl }}"><span class="hovereffect">&lt;&#x2f; </span>Source<span class="hovereffect"> &gt;</span></a>
+    <div class="col-12 col-md-8 mobile2">
+      <div class="container-fluid">
+        <h1>{{ item.title }}</h1>
+      </div>
+      <div class="container-fluid">
+        <p id="desc">{{ item.description }}</p>
+      </div>
+      <div class="container-fluid">
+        <div class="row buttonrow">
+          <div class="col-6 text-center">
+            <a href="{{ item.appUrl }}"><i class="fas fa-share hovereffect"></i> Try it!</a>
+          </div>
+          <div class="col-6 text-center">
+            <a href="{{ item.sourceUrl }}"><span class="hovereffect">&lt;&#x2f; </span>Source<span class="hovereffect"> &gt;</span></a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-12 col-md-4 mobile1">
       <div class="card">
         <img class="card-img-top" src="{{ item.imageUrl }}" alt="card image caption">
         <div class="card-body text-center">
@@ -23,4 +29,5 @@
     </div>
   </div>
   <br>
+  <hr>
 </div>
