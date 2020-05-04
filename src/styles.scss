@@ -3,9 +3,20 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
-  padding-top: 4em;
+  padding-top: 5em;
   background-image: linear-gradient(180deg, #f2f2f5, #fafafb, #fefeff);
   font-size: 100%;
+  transition: opacity 2s linear;
+}
+body.bg-home {
+  background-image: radial-gradient(at top left, #F5F1EB, #FAF7F2);
+}
+body.bg-works {
+  background-image: radial-gradient(at top left, #EFF4FC, #F2FFC2);
+  // color: #fff;
+}
+body.bg-skillsets {
+  background-image: radial-gradient(at bottom right, #FAE3CA, #E8FAD7);
 }
 
 html {

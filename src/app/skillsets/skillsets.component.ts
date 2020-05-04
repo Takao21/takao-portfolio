@@ -12,6 +12,14 @@ export class SkillsetsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ngAfterViewInit() {
+    document.getElementsByTagName('body')[0].classList.add('bg-skillsets');
+  }
+
+  ngOnDestroy() {
+    document.getElementsByTagName('body')[0].classList.remove('bg-skillsets');
+  }
+
   public happyTime() {
     window.alert("I wish you have a great day~ ^_^");
   }

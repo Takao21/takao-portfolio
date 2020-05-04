@@ -1,9 +1,22 @@
 i {
-  font-size: 5em;
+  font-size: 7rem;
 }
 
 .bi-bootstrap-fill {
   color: #602c50;
+}
+.wiggly {
+  animation: btnWiggle 5s 3;
+}
+@keyframes btnWiggle {
+	0% {transform: rotate(0deg);}
+	2% {transform: rotate(-3deg);}
+	3% {transform: rotate(3deg);}
+	5% {transform: rotate(0deg);}
+  7% {transform: rotate(-3deg);}
+  8% {transform: rotate(3deg);}
+  10% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
 }
 
 .funBtn {
@@ -14,7 +27,6 @@ i {
   background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
-  -webkit-transition: background 300ms ease-in-out;
   transition: background 300ms ease-in-out;
 }
 
