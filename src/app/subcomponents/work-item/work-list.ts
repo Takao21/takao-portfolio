@@ -58,7 +58,7 @@ export const WORKS = [
   {
     title: "Educational Document Page",
     description: "I tried to duplicate an education website that features Javascript documentations. This project is to showcase my responsive layout designing knowledge for documentations, online libraries and news articles.",
-    imageUrl: "https://i.imgur.com/qywbq6T.png",
+    imageUrl: "https://i.imgur.com/0VQtZTN.png",
     imageCap: "Documentation Page",
     appUrl: "https://codepen.io/takao21/full/BaowJgV",
     sourceUrl: "https://github.com/Takao21/freecodecamp-techdoc-page"
