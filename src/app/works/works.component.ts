@@ -13,14 +13,6 @@ export class WorksComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ngAfterViewInit() {
-    document.getElementsByTagName('body')[0].classList.add('bg-works');
-  }
-
-  ngOnDestroy() {
-    document.getElementsByTagName('body')[0].classList.remove('bg-works');
-  }
-
   public meow() {
     if (!this.meowed) {
       if (this.meowThreshold < 7) {

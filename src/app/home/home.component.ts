@@ -11,11 +11,4 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ngAfterViewInit() {
-    document.getElementsByTagName('body')[0].classList.add('bg-home');
-  }
-
-  ngOnDestroy() {
-    document.getElementsByTagName('body')[0].classList.remove('bg-home');
-  }
 }

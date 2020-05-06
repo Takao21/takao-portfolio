@@ -2,6 +2,15 @@ i {
   font-size: 7rem;
 }
 
+.skills-title {
+  background-image: url(https://i.imgur.com/BrIEtfv.png);
+  background-position: center;
+  color: #fff;
+  padding: 0.5em 0;
+  text-shadow: 1px 1px 3px grey;
+  margin: 0.5em 0;
+}
+
 .bi-bootstrap-fill {
   color: #602c50;
 }
@@ -17,21 +26,6 @@ i {
   8% {transform: rotate(3deg);}
   10% {transform: rotate(0deg);}
 	100% {transform: rotate(0deg);}
-}
-
-.funBtn {
-  background-color: none;
-  border-color: #f1c40f;
-  color: #000;
-  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
-  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
-  background-position: 100%;
-  background-size: 400%;
-  transition: background 300ms ease-in-out;
-}
-
-.funBtn:hover {
-  background-position: 0;
 }
 
 .fa-play-circle:hover {
