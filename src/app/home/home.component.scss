@@ -16,11 +16,36 @@
   z-index: -10;
   filter: brightness(75%);
 }
-
-#avatar {
-  margin-top: 2em;
-  margin-bottom: 1em;
+//
+// #avatar {
+//   margin-top: 2em;
+//   margin-bottom: 1em;
+// }
+.avatar-div {
+  background-image: url(https://www.w3schools.com/howto/img_avatar.png);
+  width: 9.5em;
+  height: 9.5em;
+  background-size: contain;
+  transition: background 0.5s linear;
 }
+.avatar-div:hover {
+  box-shadow: 1px 1px 5px 2px #b2b2b2;
+  background-image: url(https://i.imgur.com/OzHfMIr.png);
+  animation: flipIt 0.5s linear;
+}
+
+@keyframes flipIt {  // easter egg image flip
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 
 ul {
   width: 100%;
