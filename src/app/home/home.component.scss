@@ -2,6 +2,12 @@
   position: relative;
   color: #fff;
   margin-top: 0.7em;
+  min-height: 100vh;
+}
+.to-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .bg-container {
